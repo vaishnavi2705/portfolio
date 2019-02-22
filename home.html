@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vaishnavi</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+          // Add smooth scrolling to all links
+          $("a").on('click', function(event) {
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+              // Prevent default anchor click behavior
+              event.preventDefault();
+              // Store hash
+              var hash = this.hash;
+              // Using jQuery's animate() method to add smooth page scroll
+              // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+              $('html, body').animate({
+                scrollTop: $(hash).offset().top
+
+              }, 600, function(){
+                // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+                console.log(hash);
+              });
+            } // End if
+          });
+        });
+    </script>
+</head>
+<body >
+    <div class="container">
+        <div class="nav_bar">
+            <center>
+                <div class="profile_outline"><div class="profile_image"></div></div>
+                <p class="name">vaishnavi</p>
+                <p class="occupation">I'm a full-stack web developer,</p>
+                <hr>
+                <div class="details">
+                    <table>
+                        <tr>
+                            <td><b>DOB:</b></td>
+                            <td>27/05/1999</td>
+                        </tr>
+                        <tr>
+                            <td><b>Email:</b></td>
+                            <td>pabbavaishnavi1999@gmail.com</td>
+                        </tr>
+                    </table>
+                </div>
+                <hr>
+                <div class="navigation">
+                    <ul>
+                        <li><a href="#aboutme">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#education_container">Education</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <img src="./Images/skills/socialmedia.svg" alt="" class="social_media">
+            </center>
+
+        </div>
+        <div class="content">
+            <div class="aboutme" id="aboutme">
+                <p class="title">About Me</p>
+
+                <div class="aboutme_data"><p><b>HI! I'm P.Vaishnavi</b>, a Full-stack web designer, developer, . I'm pursuing my graduation in computer science and engineering at Mallareddy college of engineering and technology, Hyderabad. </p><br>
+                <p>I love exploring new technologies. when I came to know about big data and machine learning I was very excited and interested in it. oftentimes I dream about how big data  machine learning can make lives easy and how I can use those technologies to build something useful to humanity.  At the age of 18, I've set my target to become a Data Analyst</p>
+            </div>
+            </div>
+
+            <div class="education_container" id="education_container">
+                <div class="timeline">
+                    <div class="pointer" id="main_pointer"><img src="./Images/school.svg" alt=""></div>
+                    <div class="pointer" id="pointer1"><span></span></div>
+                    <div class="pointer" id="pointer2"><span></span></div>
+                    <div class="pointer" id="pointer3"><span></span></div>
+                </div>
+                <div class="education_details">
+                    <p class="title">Education</p>
+                    <div class="btech">
+                        <p>Mallareddy college of engineering and technology</p>
+                        <p>2016-2020</p>
+                        <p>Currently, I'm pursuing my graduation in computer science and engineering. Till now I have obtained 72% of aggregate alongside some knowledge as a full-stack developer and knowledge about real-time project management and deployment. </p>
+                    </div>
+                    <div class="inter">
+                        <p>Chaitanya jr college</p>
+                        <p>2016</p>
+                        <p>I've completed my intermediate in MPC at hyderabad under Telangana Board of Intermediate Education with an aggregate of 93.2. </p>
+                    </div>
+                    <div class="schooling">
+                        <p>S.T joseph's high school</p>
+                        <p>2014</p>
+                        <p>I have completed my 10th standard under Andhrapradesh state board-SSC with an aggregate of 88%. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contactme" id="contact">
+                <p><b>Contact me!</b></p>
+                <div class="mailme">
+                    <form action="https://formspree.io/pabbavaishnavi1999@gmail.com" method="post">
+                        <input type="text" placeholder="Name" name="name"><br>
+                        <input type="text" placeholder="subject" name="subject"><br>
+                        <input type="email" placeholder="Email" name="Email"><br>
+                        <textarea name="message" placeholder="message"  rows="10" ></textarea>
+                        <input type="submit" value="send">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
