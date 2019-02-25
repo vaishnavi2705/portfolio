@@ -29,7 +29,7 @@ html,body{
     height: 135px;
     border-radius: 50%;
     overflow: hidden;
-    background-image: url(F:\myself/vaishu.jpg);
+    background-image: url(./myself/vaishu.jpg);
     background-position: top;
     background-size: cover;
     transform: rotate(90deg);
