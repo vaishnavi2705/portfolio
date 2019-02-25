@@ -34,7 +34,7 @@ html,body{
       );
     background-position: top;
     background-size: cover;
-   
+    transform: rotate(90deg);
 }
 .name{
     color: #ffd95a;
