@@ -29,9 +29,7 @@ html,body{
     height: 135px;
     border-radius: 50%;
     overflow: hidden;
-    background-image: url(
-        portfolio/vaishu.jpg
-      );
+    background-image: url(portfolio/vaishu.jpg);
     background-position: top;
     background-size: cover;
     transform: rotate(90deg);
