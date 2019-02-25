@@ -32,7 +32,7 @@ html,body{
     background-image: url(portfolio/vaishu.jpg);
     background-position: top;
     background-size: cover;
-    transform: rotate(0deg);
+    transform: rotate(45deg);
 }
 .name{
     color: #ffd95a;
