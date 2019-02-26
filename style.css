@@ -10,7 +10,7 @@
 html,body{
     height: 100%;
     width: 100%;
-    background: #FFFFFF;
+    background: #242424;
 }
 
 /* side bar stylings */
@@ -22,7 +22,7 @@ html,body{
     height: 140px;
     padding: 4px 2px 0px 2px;
     border-radius: 50%;
-    background: #ffffff;
+    background: #f9a825;
 }
 .profile_image{
     width: 135px;
@@ -35,7 +35,7 @@ html,body{
     transform: rotate(90deg);
 }
 .name{
-    color: #ffffff;
+    color: #ffd95a;
     font-weight: bolder;
     font-size: 30px;
     margin-top: 5px;
