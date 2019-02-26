@@ -30,7 +30,7 @@ html,body{
     border-radius: 50%;
     overflow: hidden;
     background-image: url(
-    portfolio/IMG_20180728_193144_985.jpg
+    ./portfolio/IMG_20180728_193144_985.jpg
       );
     background-position: top;
     background-size: cover;
