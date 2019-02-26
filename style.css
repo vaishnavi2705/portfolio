@@ -22,7 +22,7 @@ html,body{
     height: 140px;
     padding: 4px 2px 0px 2px;
     border-radius: 50%;
-    background: #f9a825;
+    background: #ffffff;
 }
 .profile_image{
     width: 135px;
@@ -35,7 +35,7 @@ html,body{
     transform: rotate(90deg);
 }
 .name{
-    color: #ffd95a;
+    color: #ffffff;
     font-weight: bolder;
     font-size: 30px;
     margin-top: 5px;
